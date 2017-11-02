@@ -9,8 +9,8 @@ public class FaceBookLogin {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		String user_name="vijayoothk@gmail.com";
-		String password="ethalaygujuree1";
+		String user_name="vijay007hk@rediffmail.com";
+		String password="cryptozoology1";
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
 		WebDriver ff = new FirefoxDriver();
 		ff.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
