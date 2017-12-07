@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19868" started-at="2017-10-26T09:50:59Z" finished-at="2017-10-26T09:51:19Z">
+  <suite name="Default suite" duration-ms="41204" started-at="2017-12-07T14:06:40Z" finished-at="2017-12-07T14:07:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19868" started-at="2017-10-26T09:50:59Z" finished-at="2017-10-26T09:51:19Z">
-      <class name="TestVagrant.Hotels.HotelBookingTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.HotelBookingTest@7823a2f9]" name="initialize" is-config="true" duration-ms="3395" started-at="2017-10-26T15:20:59Z" finished-at="2017-10-26T15:21:03Z">
+    <test name="Default test" duration-ms="41204" started-at="2017-12-07T14:06:40Z" finished-at="2017-12-07T14:07:21Z">
+      <class name="TestVagrant.Hotels.SignInTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.SignInTest2@1b604f19]" name="initialize" is-config="true" duration-ms="15016" started-at="2017-12-07T19:36:40Z" finished-at="2017-12-07T19:36:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:TestVagrant.Hotels.HotelBookingTest@7823a2f9]" name="shouldBeAbleToSearchForHotels" duration-ms="16455" started-at="2017-10-26T15:21:03Z" finished-at="2017-10-26T15:21:19Z">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestVagrant.Hotels.SignInTest2@1b604f19]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="26124" started-at="2017-12-07T19:36:55Z" finished-at="2017-12-07T19:37:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldBeAbleToSearchForHotels -->
-      </class> <!-- TestVagrant.Hotels.HotelBookingTest -->
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+      </class> <!-- TestVagrant.Hotels.SignInTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 
 //@SuppressWarnings("restriction")
 public class SignInTest2 extends DriverPath{
-	//static{System.setProperty("webdriver.chrome.driver", "chromedriver.exe");}
-	//static{System.setProperty("webdriver.gecko.driver", "geckodriver.exe");}
+	
     WebDriver driver ;
     @BeforeClass
     public void initialize(){
