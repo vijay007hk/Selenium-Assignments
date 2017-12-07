@@ -1,21 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41204" started-at="2017-12-07T14:06:40Z" finished-at="2017-12-07T14:07:21Z">
+  <suite name="Default suite" duration-ms="217604" started-at="2017-12-07T14:34:22Z" finished-at="2017-12-07T14:37:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41204" started-at="2017-12-07T14:06:40Z" finished-at="2017-12-07T14:07:21Z">
-      <class name="TestVagrant.Hotels.SignInTest2">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.SignInTest2@1b604f19]" name="initialize" is-config="true" duration-ms="15016" started-at="2017-12-07T19:36:40Z" finished-at="2017-12-07T19:36:55Z">
+    <test name="Default test" duration-ms="217604" started-at="2017-12-07T14:34:22Z" finished-at="2017-12-07T14:37:59Z">
+      <class name="TestVagrant.Hotels.FlightBookingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.FlightBookingTest@13c10b87]" name="initialize" is-config="true" duration-ms="3190" started-at="2017-12-07T20:04:55Z" finished-at="2017-12-07T20:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestVagrant.Hotels.SignInTest2@1b604f19]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="26124" started-at="2017-12-07T19:36:55Z" finished-at="2017-12-07T19:37:21Z">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:TestVagrant.Hotels.FlightBookingTest@13c10b87]" name="testThatResultsAppearForAOneWayJourney" duration-ms="25772" started-at="2017-12-07T20:04:58Z" finished-at="2017-12-07T20:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+      </class> <!-- TestVagrant.Hotels.FlightBookingTest -->
+      <class name="TestVagrant.Hotels.SignInTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.SignInTest2@6a01e23]" name="initialize" is-config="true" duration-ms="2887" started-at="2017-12-07T20:06:36Z" finished-at="2017-12-07T20:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestVagrant.Hotels.SignInTest2@6a01e23]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="32676" started-at="2017-12-07T20:06:39Z" finished-at="2017-12-07T20:07:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
       </class> <!-- TestVagrant.Hotels.SignInTest2 -->
+      <class name="TestVagrant.Hotels.FlightBookingTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.FlightBookingTest2@6293abcc]" name="initialize" is-config="true" duration-ms="3404" started-at="2017-12-07T20:05:24Z" finished-at="2017-12-07T20:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:TestVagrant.Hotels.FlightBookingTest2@6293abcc]" name="testThatResultsAppearForAOneWayJourney" duration-ms="32344" started-at="2017-12-07T20:05:27Z" finished-at="2017-12-07T20:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+      </class> <!-- TestVagrant.Hotels.FlightBookingTest2 -->
+      <class name="TestVagrant.Hotels.SignInTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.SignInTest@1df82230]" name="initialize" is-config="true" duration-ms="9651" started-at="2017-12-07T20:04:22Z" finished-at="2017-12-07T20:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestVagrant.Hotels.SignInTest@1df82230]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="23400" started-at="2017-12-07T20:04:31Z" finished-at="2017-12-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+      </class> <!-- TestVagrant.Hotels.SignInTest -->
+      <class name="TestVagrant.Hotels.HotelBookingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.HotelBookingTest@5a955565]" name="initialize" is-config="true" duration-ms="5453" started-at="2017-12-07T20:07:12Z" finished-at="2017-12-07T20:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:TestVagrant.Hotels.HotelBookingTest@5a955565]" name="shouldBeAbleToSearchForHotels" duration-ms="42219" started-at="2017-12-07T20:07:17Z" finished-at="2017-12-07T20:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+      </class> <!-- TestVagrant.Hotels.HotelBookingTest -->
+      <class name="TestVagrant.Hotels.HotelBookingTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestVagrant.Hotels.HotelBookingTest2@22635ba0]" name="initialize" is-config="true" duration-ms="5268" started-at="2017-12-07T20:06:00Z" finished-at="2017-12-07T20:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:TestVagrant.Hotels.HotelBookingTest2@22635ba0]" name="shouldBeAbleToSearchForHotels" duration-ms="31269" started-at="2017-12-07T20:06:05Z" finished-at="2017-12-07T20:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+      </class> <!-- TestVagrant.Hotels.HotelBookingTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
